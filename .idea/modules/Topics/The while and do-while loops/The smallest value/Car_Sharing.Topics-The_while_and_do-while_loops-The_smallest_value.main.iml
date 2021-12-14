@@ -3,7 +3,9 @@
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The smallest value/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The smallest value/src" />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The smallest value/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../Topics/The while and do-while loops/The smallest value/src" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
