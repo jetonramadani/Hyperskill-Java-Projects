@@ -19,3 +19,5 @@ content:
 - Overloading
 - Functional decomposition
 - Primitive and reference types
+- Array
+- Iterating over arrays
