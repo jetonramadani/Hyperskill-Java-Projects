@@ -21,3 +21,4 @@ content:
 - Primitive and reference types
 - Array
 - Iterating over arrays
+- Arrays as parameters
