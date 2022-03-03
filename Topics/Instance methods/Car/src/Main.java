@@ -1,15 +1,17 @@
+
 class Car {
 
     int yearModel;
     String make;
     int speed;
-
+    private final int five = 5;
+    
     void accelerate() {
-        this.speed += 5;
+        this.speed += five;
     }
 
     void brake() {
-        this.speed -= 5;
+        this.speed -= five;
         if (this.speed < 0) {
             this.speed = 0;
         }

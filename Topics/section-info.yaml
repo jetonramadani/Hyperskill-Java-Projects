@@ -1,30 +1,35 @@
 content:
-- Introduction to Java
-- Overview of the basic program
-- Printing data
-- Types and variables
-- Comments
-- Scanning the input
-- Integer types and operations
-- Relational operators
-- Increment and decrement
-- Conditional statement
-- The for-loop
-- The while and do-while loops
-- Branching statements
-- Switch statement
-- Calling a method
-- Declaring a method
-- The main method
-- Overloading
-- Functional decomposition
-- Primitive and reference types
-- Array
-- Iterating over arrays
-- Arrays as parameters
-- String
-- Errors in programs
-- What is an exception
-- NPE
-- Defining classes
-- Instance methods
+  - Introduction to Java
+  - Overview of the basic program
+  - Printing data
+  - Types and variables
+  - Comments
+  - Scanning the input
+  - Integer types and operations
+  - Relational operators
+  - Increment and decrement
+  - Conditional statement
+  - The for-loop
+  - The while and do-while loops
+  - Branching statements
+  - Switch statement
+  - Calling a method
+  - Declaring a method
+  - The main method
+  - Overloading
+  - Functional decomposition
+  - Primitive and reference types
+  - Array
+  - Iterating over arrays
+  - Arrays as parameters
+  - String
+  - Errors in programs
+  - What is an exception
+  - NPE
+  - Defining classes
+  - Instance methods
+  - Constructor
+  - Package
+  - Getters and setters
+  - Inheritance
+  - Objects
