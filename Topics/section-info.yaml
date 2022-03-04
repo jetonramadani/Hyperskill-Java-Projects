@@ -33,3 +33,6 @@ content:
   - Getters and setters
   - Inheritance
   - Objects
+  - Interface
+  - Anonymous classes
+  - Default methods

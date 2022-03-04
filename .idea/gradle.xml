@@ -10,6 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/An anonymous class with three methods" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/Capture variables" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/Implement Runnable" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/Single method" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/String reverser" />
+            <option value="$PROJECT_DIR$/Topics/Anonymous classes/Theory" />
             <option value="$PROJECT_DIR$/Topics/Array/Initializing an array of characters" />
             <option value="$PROJECT_DIR$/Topics/Array/Initializing an array of integers" />
             <option value="$PROJECT_DIR$/Topics/Array/Initializing an array of longs" />
@@ -63,6 +69,10 @@
             <option value="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Theory" />
             <option value="$PROJECT_DIR$/Topics/Declaring a method/Vowel or not" />
+            <option value="$PROJECT_DIR$/Topics/Default methods/Add new default method" />
+            <option value="$PROJECT_DIR$/Topics/Default methods/Implement a default method" />
+            <option value="$PROJECT_DIR$/Topics/Default methods/Resolve a diamond problem" />
+            <option value="$PROJECT_DIR$/Topics/Default methods/Theory" />
             <option value="$PROJECT_DIR$/Topics/Defining classes/Accounts" />
             <option value="$PROJECT_DIR$/Topics/Defining classes/Books" />
             <option value="$PROJECT_DIR$/Topics/Defining classes/Complex numbers" />
@@ -111,6 +121,11 @@
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Tens digit" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/The sum of digits" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Account Service" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Area of a circle" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Compact strings with AsciiCharSequence" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Mutable geometric shapes" />
+            <option value="$PROJECT_DIR$/Topics/Interface/Theory" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Hello_" />
             <option value="$PROJECT_DIR$/Topics/Introduction to Java/Theory" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Alphabetical order" />
