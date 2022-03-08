@@ -1,8 +1,8 @@
 type: code
 files:
-- name: src/Main.java
-  visible: true
-  text: "import java.util.Scanner;\n\npublic class Main {\n\n    public static void\
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\npublic class Main {\n\n    public static void\
     \ main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\
     \n        int width = scanner.nextInt();\n        int height = scanner.nextInt();\n\
     \        int length = scanner.nextInt(); \n\n        // creating an instance\n\
@@ -13,7 +13,7 @@ files:
     \ }\n\n    @Override\n    public String toString() {\n        return \"Cuboid(\"\
     \ +\n                \"w=\" + width +\n                \", h=\" + height +\n \
     \               \", l=\" + length + ')';\n    }\n}"
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2159#comment
 status: Solved
 feedback:
