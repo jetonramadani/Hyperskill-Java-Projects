@@ -1,9 +1,9 @@
 type: code
 custom_name: Boxes are not just objects!
 files:
-- name: src/Main.java
-  visible: true
-  text: "/**\n\nObject-based box class that requires casting every time you want to\
+  - name: src/Main.java
+    visible: true
+    text: "/**\n\nObject-based box class that requires casting every time you want to\
     \ get some specific stuff from it, e.g.:\n\n    Box cakeBox = new Box();\n   \
     \ cakeBox.put(new Cake());\n    // Without casting only object can be retrieved\
     \ out of the box\n    Cake cake = (Cake) cakeBox.get();\n\nCasting is not desirable\
@@ -11,7 +11,7 @@ files:
     class Box {\n\n    private Object item;\n\n    public void put(Object item) {\n\
     \    \tthis.item = item;\n    }\n\n    public Object get() {\n        return this.item;\n\
     \    }\n\n}"
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2598#comment
 status: Solved
 feedback:

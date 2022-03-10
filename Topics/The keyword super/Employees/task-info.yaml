@@ -1,35 +1,35 @@
 type: code
 files:
-- name: src/Main.java
-  visible: true
-  text: |-
-    class Employee {
+  - name: src/Main.java
+    visible: true
+    text: |-
+      class Employee {
 
-        // write fields
+          // write fields
 
-        // write constructor
+          // write constructor
 
-        // write getters
-    }
+          // write getters
+      }
 
-    class Developer extends Employee {
+      class Developer extends Employee {
 
-        // write fields
+          // write fields
 
-        // write constructor
+          // write constructor
 
-        // write getters
-    }
+          // write getters
+      }
 
-    class DataAnalyst extends Employee {
+      class DataAnalyst extends Employee {
 
-        // write fields
+          // write fields
 
-        // write constructor
+          // write constructor
 
-        // write getters
-    }
-  learner_created: false
+          // write getters
+      }
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2206#comment
 status: Solved
 feedback:
