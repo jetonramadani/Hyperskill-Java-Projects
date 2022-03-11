@@ -111,7 +111,10 @@
             <option value="$PROJECT_DIR$/Topics/Function composition/Disjunct all" />
             <option value="$PROJECT_DIR$/Topics/Function composition/The chain of responsibility" />
             <option value="$PROJECT_DIR$/Topics/Function composition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/A sorted stream" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Count passwords" />
             <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Finding max and min elements" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Print elements of a stream" />
             <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Theory" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
