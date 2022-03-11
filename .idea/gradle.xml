@@ -55,6 +55,12 @@
             <option value="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Most valuable items" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Multiple fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Odd and even" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Reverse sorting" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Theory" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Check a number is positive" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Chocolate" />
             <option value="$PROJECT_DIR$/Topics/Conditional statement/Healthy sleep" />
@@ -105,6 +111,8 @@
             <option value="$PROJECT_DIR$/Topics/Function composition/Disjunct all" />
             <option value="$PROJECT_DIR$/Topics/Function composition/The chain of responsibility" />
             <option value="$PROJECT_DIR$/Topics/Function composition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Finding max and min elements" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Theory" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Calculator with four methods" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
