@@ -258,6 +258,11 @@
             <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/An infinite numbers supplier" />
             <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/Ternary operator" />
             <option value="$PROJECT_DIR$/Topics/Standard functional interfaces/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Bad words detecting" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Check if a number is prime" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Numbers filtering" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Omitting long strings" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Theory" />
             <option value="$PROJECT_DIR$/Topics/String/Check burgs" />
             <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
             <option value="$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces" />

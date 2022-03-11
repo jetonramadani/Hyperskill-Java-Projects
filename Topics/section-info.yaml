@@ -57,3 +57,4 @@ content:
   - Function composition
   - Comparator
   - Functional data processing with streams
+  - Stream filtering
