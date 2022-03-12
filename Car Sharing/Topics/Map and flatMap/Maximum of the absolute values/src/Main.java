@@ -13,6 +13,7 @@ public class Main {
         // write your code here
         return Arrays.stream(numbers)
                 .mapToInt(Integer::parseInt)
+                .map(Math::abs)
                 .max()
                 .orElse(0);
 
