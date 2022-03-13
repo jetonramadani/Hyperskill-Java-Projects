@@ -58,3 +58,4 @@ content:
   - Comparator
   - Stream filtering
   - Map and flatMap
+  - Reduction methods
