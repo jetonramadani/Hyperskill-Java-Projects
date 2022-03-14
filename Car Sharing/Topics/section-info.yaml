@@ -60,3 +60,4 @@ content:
   - Map and flatMap
   - Reduction methods
   - Collectors
+  - Infinite streams

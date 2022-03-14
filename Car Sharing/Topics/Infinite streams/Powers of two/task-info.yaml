@@ -1,0 +1,39 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      import java.util.stream.Collectors;
+      import java.util.stream.Stream;
+
+      class StreamUtils {
+
+          public static Stream<Integer> generateStreamWithPowersOfTwo(int n) {
+              return Stream.empty(); // replace it with your code
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10184#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:13: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+            ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:13: error: cannot find symbol
+            Scanner scanner = new Scanner(System.in);
+                                  ^
+      symbol:   class Scanner
+      location: class Main
+    Main.java:19: error: cannot find symbol
+                    .collect(Collectors.joining(" "));
+                             ^
+      symbol:   variable Collectors
+      location: class Main
+    3 errors
+  time: Mon, 14 Mar 2022 08:23:07 UTC
+record: -1
