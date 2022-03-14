@@ -252,6 +252,14 @@
             <option value="$PROJECT_DIR$/Topics/Package/Getting input" />
             <option value="$PROJECT_DIR$/Topics/Package/Sorting arrays" />
             <option value="$PROJECT_DIR$/Topics/Package/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Fix the sorting order" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Getting the greater speedup" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Inverting streams" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Myths and facts" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Parallel reducing" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Prime numbers" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/The ordered sequence" />
+            <option value="$PROJECT_DIR$/Topics/Parallel streams/Theory" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a primitive" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Theory" />
             <option value="$PROJECT_DIR$/Topics/Printing data/Digits from 0 to 9 backwards" />

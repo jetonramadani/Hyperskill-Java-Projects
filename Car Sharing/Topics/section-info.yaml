@@ -64,3 +64,4 @@ content:
   - Taking elements
   - Streams of primitives
   - Stream pipelines
+  - Parallel streams
