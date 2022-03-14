@@ -1,10 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: findAny
-  - text: max
-  - text: forEach
-  - text: count
+  - text: Stream.ranged(start, end);
+  - text: Stream.ranged(start, end + 1);
+  - text: IntStream.range(start, end + 1);
+  - text: IntStream.rangeClosed(start, end).boxed();
+  - text: IntStream.rangeClosed(start, end - 1).boxed();
 files:
   - name: src/Task.java
     visible: true
@@ -17,12 +18,11 @@ files:
         }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/learn/step/10183#comment
+feedback_link: https://hyperskill.org/learn/step/8411#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Mon, 14 Mar 2022 09:16:35 UTC
+  time: Mon, 14 Mar 2022 09:15:56 UTC
 record: -1
 selected_options:
-  - 0
-custom_name: Making a stream finite
+  - 3

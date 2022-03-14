@@ -62,3 +62,4 @@ content:
   - Collectors
   - Infinite streams
   - Taking elements
+  - Streams of primitives
