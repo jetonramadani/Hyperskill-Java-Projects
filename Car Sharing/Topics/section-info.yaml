@@ -63,3 +63,4 @@ content:
   - Infinite streams
   - Taking elements
   - Streams of primitives
+  - Stream pipelines

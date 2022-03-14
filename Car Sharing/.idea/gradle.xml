@@ -290,6 +290,12 @@
             <option value="$PROJECT_DIR$/Topics/Stream filtering/Numbers filtering" />
             <option value="$PROJECT_DIR$/Topics/Stream filtering/Omitting long strings" />
             <option value="$PROJECT_DIR$/Topics/Stream filtering/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/The sum of odd numbers" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/The ten most frequent words" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/The total number of employees" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/The total sum of canceled transactions" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/Using streams many times" />
             <option value="$PROJECT_DIR$/Topics/Streams of primitives/A stream without zero" />
             <option value="$PROJECT_DIR$/Topics/Streams of primitives/Producing streams" />
             <option value="$PROJECT_DIR$/Topics/Streams of primitives/Ranged stream" />
