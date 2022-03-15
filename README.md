@@ -122,21 +122,34 @@
       <summary><b><u>Stage 2</u></b></summary>
   
       ```
-        
+        -Literals
+        -Expressions
+        -The NULL value
+        -Basic SELECT statement
+        -SELECT FROM statement
+        -Results ordering
+        -Basic INSERT statement
+        -Intro to MySQL
+        -Alter table
+        -PRIMARY KEY constraint
+        -Consistency constraints
       ```
     </details>
     <details>
       <summary><b><u>Stage 3</u></b></summary>
   
       ```
-        
+        -Relational Data Model
+        -SELECT FROM WHERE statement
+        -FOREIGN KEY constraint
       ```
     </details>
     <details>
       <summary><b><u>Stage 4</u></b></summary>
   
       ```
-        
+        -Basic UPDATE statement
+        -Updating selected rows
       ```
     </details>
-  - Project solution folder ->
+  - Project solution folder -> [here](Car%20Sharing/Car%20Sharing/task/src/carsharing/Main.java)
