@@ -65,3 +65,4 @@ content:
   - Streams of primitives
   - Stream pipelines
   - Parallel streams
+  - The Map interface
