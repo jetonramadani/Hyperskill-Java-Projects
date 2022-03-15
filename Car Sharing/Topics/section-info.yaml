@@ -60,9 +60,9 @@ content:
   - Map and flatMap
   - Reduction methods
   - Collectors
-  - Infinite streams
   - Taking elements
   - Streams of primitives
   - Stream pipelines
   - Parallel streams
   - The Map interface
+  - Grouping collectors
