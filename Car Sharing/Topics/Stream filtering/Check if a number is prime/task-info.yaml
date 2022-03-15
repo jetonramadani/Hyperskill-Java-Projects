@@ -1,36 +1,36 @@
 type: code
 files:
-  - name: src/Main.java
-    visible: true
-    text: |-
-      import java.util.Scanner;
-      import java.util.stream.*;
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.stream.*;
 
-      class PrimeNumbers {
+    class PrimeNumbers {
 
-          /**
-           * Checking if a number is prime
-           *
-           * @param number to test >= 2
-           * @return true if number is prime else false
-           */
-          private static boolean isPrime(long number) {
-              // write your code here
-              return false;
-          }
+        /**
+         * Checking if a number is prime
+         *
+         * @param number to test >= 2
+         * @return true if number is prime else false
+         */
+        private static boolean isPrime(long number) {
+            // write your code here
+            return false;
+        }
 
-          public static void main(String[] args) {
+        public static void main(String[] args) {
 
-              Scanner scanner = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
-              String line = scanner.nextLine().trim();
+            String line = scanner.nextLine().trim();
 
-              int n = Integer.parseInt(line);
+            int n = Integer.parseInt(line);
 
-              System.out.println(isPrime(n) ? "True" : "False");
-          }
-      }
-    learner_created: false
+            System.out.println(isPrime(n) ? "True" : "False");
+        }
+    }
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2423#comment
 status: Solved
 feedback:

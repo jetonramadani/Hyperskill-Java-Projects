@@ -5,11 +5,13 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Car Sharing/task" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes/An anonymous class with three methods" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes/Capture variables" />
             <option value="$PROJECT_DIR$/Topics/Anonymous classes/Implement Runnable" />

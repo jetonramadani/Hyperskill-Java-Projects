@@ -1,18 +1,18 @@
 content:
-- Theory
-- Cyclically shifting elements
-- Right Rotation
-- Individual taxes
-- Check if an array contains two numbers
-- Boxes
-- Count how many times a number occurs
-- The sum of array elements
-- Sum array elements greater than a value
-- The maximum product of adjacent elements
-- Alphabetical order
-- Does an array contain N
-- Triples
-- The minimum value of an array
-- Check if an array is sorted ascending
-- The index of the first max in an array
-- Two numbers never occur next to each other
+  - Theory
+  - Cyclically shifting elements
+  - Right Rotation
+  - Individual taxes
+  - Check if an array contains two numbers
+  - Boxes
+  - Count how many times a number occurs
+  - The sum of array elements
+  - Sum array elements greater than a value
+  - The maximum product of adjacent elements
+  - Alphabetical order
+  - Does an array contain N
+  - Triples
+  - The minimum value of an array
+  - Check if an array is sorted ascending
+  - The index of the first max in an array
+  - Two numbers never occur next to each other

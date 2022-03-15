@@ -1,7 +1,7 @@
 content:
-- Theory
-- Printing strings in the same order
-- Hiring a chef
-- Guest list of a hotel
-- Printing each word in a new line
-- Print strings in the reverse order
+  - Theory
+  - Printing strings in the same order
+  - Hiring a chef
+  - Guest list of a hotel
+  - Printing each word in a new line
+  - Print strings in the reverse order
