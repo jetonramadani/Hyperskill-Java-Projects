@@ -152,4 +152,4 @@
         -Updating selected rows
       ```
     </details>
-  - Project solution folder -> [here](Car%20Sharing/task/src/carsharing/Main.java)
+  - Project solution folder -> [here](Car%20Sharing/task/src/carsharing/)
