@@ -1,5 +1,5 @@
 content:
-  - Theory
-  - BadRequestException
-  - Base class
-  - UncheckedException
+- Theory
+- BadRequestException
+- Base class
+- UncheckedException

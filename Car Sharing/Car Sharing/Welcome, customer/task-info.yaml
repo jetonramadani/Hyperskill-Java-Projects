@@ -1122,12 +1122,6 @@ files:
         }
     }
   learner_created: true
-- name: src/carsharing/model/Car.java
-  visible: true
-  learner_created: true
-- name: src/carsharing/model/Company.java
-  visible: true
-  learner_created: true
 - name: src/carsharing/models/Customer.java
   visible: true
   learner_created: true
