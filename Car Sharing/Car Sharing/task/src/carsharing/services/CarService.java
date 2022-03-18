@@ -1,9 +1,14 @@
-package carsharing;
+package carsharing.services;
+
+import carsharing.models.Car;
+import carsharing.models.Customer;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CarService {
     private final Connection conn;
@@ -13,16 +18,9 @@ public class CarService {
         this.recreateTable();
     }
 
-    public static void dropCar(Connection connection) throws SQLException {
-        Statement statement = connection.createStatement();
-        statement.execute("DROP TABLE IF EXISTS CAR");
-        statement.close();
-    }
-
     private void recreateTable() throws SQLException {
         Statement stmt = this.conn.createStatement();
-        stmt.execute("DROP TABLE IF EXISTS CAR");
-        String sql = "CREATE TABLE CAR " +
+        String sql = "CREATE TABLE IF NOT EXISTS CAR " +
                 "(ID INTEGER PRIMARY KEY AUTO_INCREMENT, " +
                 "NAME VARCHAR(255) UNIQUE NOT NULL, " +
                 "COMPANY_ID INT NOT NULL, " +
@@ -55,4 +53,28 @@ public class CarService {
         stmt.execute(String.format("INSERT INTO CAR(NAME, COMPANY_ID) VALUES('%s', %d)", name, compId));
     }
 
+    public Car getCarById(int id) throws SQLException {
+        Statement stmt = this.conn.createStatement();
+        stmt.execute(String.format("SELECT * FROM CAR WHERE ID=%d", id));
+        ResultSet resultSet = stmt.getResultSet();
+        Car customer = null;
+        if (resultSet.next()) {
+            customer = Car.getCar(resultSet);
+        }
+        stmt.close();
+        return customer;
+    }
+
+    public List<Car> getCarsAsList(int compId) throws SQLException {
+        Statement stmt = this.conn.createStatement();
+        stmt.execute(String.format("SELECT * FROM CAR WHERE COMPANY_ID=%d", compId));
+        ResultSet resultSet = stmt.getResultSet();
+        List<Car> res = new ArrayList<>();
+        while (resultSet.next()) {
+            Car car = Car.getCar(resultSet);
+            res.add(car);
+        }
+        stmt.close();
+        return res;
+    }
 }

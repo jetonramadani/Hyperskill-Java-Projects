@@ -1,3 +1,6 @@
 2022-03-16 15:32:22 jdbc[8]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO COMPANY(name) VALUES(Super company[*]')"; SQL statement:
 INSERT INTO COMPANY(name) VALUES(Super company') [42000-200]
+2022-03-18 14:24:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" already exists; SQL statement:
+CREATE TABLE   COMPANY (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(255) UNIQUE NOT NULL) [42101-200]

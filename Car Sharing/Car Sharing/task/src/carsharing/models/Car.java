@@ -1,15 +1,17 @@
-package carsharing;
+package carsharing.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Company {
+public class Car {
     private int id;
     private String name;
+    private int companyId;
 
-    public Company(int id, String name) {
+    public Car(int id, String name, int companyId) {
         this.id = id;
         this.name = name;
+        this.companyId = companyId;
     }
 
     public int getId() {
@@ -28,12 +30,20 @@ public class Company {
         this.name = name;
     }
 
+    public int getCompanyId() {
+        return companyId;
+    }
+
+    public void setCompanyId(int companyId) {
+        this.companyId = companyId;
+    }
+
+    public static Car getCar(ResultSet resultSet) throws SQLException {
+        return new Car(resultSet.getInt("ID"), resultSet.getString("NAME"), resultSet.getInt("COMPANY_ID"));
+    }
+
     @Override
     public String toString() {
         return String.format("%d. %s", this.id, this.name);
-    }
-
-    public static Company getCompany(ResultSet set) throws SQLException {
-        return new Company(set.getInt("ID"), set.getString("name"));
     }
 }

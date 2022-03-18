@@ -22,7 +22,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!file.delete()) {
             throw new WrongAnswer("Can't delete database file before starting your program.\n" +
-                "Make sure you close all the connections with the database file!");
+                    "Make sure you close all the connections with the database file!");
         }
     }
 
@@ -41,8 +41,8 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!file.exists()) {
             return CheckResult.wrong("Can't find a database file. It should be named 'carsharing.mv.db'" +
-                " and located in /carsharing/db/ folder.\n" +
-                "The file should be created right after starting the program!");
+                    " and located in /carsharing/db/ folder.\n" +
+                    "The file should be created right after starting the program!");
         }
 
         return correct();
@@ -142,7 +142,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("Enter the company name")) {
             return wrong("After choosing '2. Create a company' item you should ask to enter a company name.\n" +
-                "Your output should contain 'Enter the company name:'");
+                    "Your output should contain 'Enter the company name:'");
         }
 
         program.execute("Super company");
@@ -150,7 +150,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Super company")) {
             return wrong("In the company list expected one company.\n" +
-                "Your output should contain '1. Super company'");
+                    "Your output should contain '1. Super company'");
         }
 
         db.checkCompany("Super company");
@@ -165,25 +165,25 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Super company")) {
             return wrong("In the company list expected 'Super company' company.\n" +
-                "Your output should contain '1. Super company'.\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '1. Super company'.\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Another company")) {
             return wrong("In the company list expected 'Another company' company.\n" +
-                "Your output should contain '2. Another company'.\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '2. Another company'.\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("3. One more company")) {
             return wrong("In the company list expected 'One more company' company.\n" +
-                "Your output should contain '2. One more company'.\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '2. One more company'.\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("0. Back")) {
             return wrong("There is no back option in the company list.\n" +
-                "Your output should contain '0. Back'");
+                    "Your output should contain '0. Back'");
         }
 
         program.execute("2");
@@ -215,19 +215,19 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Car To Go")) {
             return wrong("In the company list expected 'Car To Go' company.\n" +
-                "Your output should contain '1. Car To Go'.\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '1. Car To Go'.\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Drive Now")) {
             return wrong("In the company list expected 'Drive Now' company.\n" +
-                "Your output should contain '2. Drive Now'\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '2. Drive Now'\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("0. Back")) {
             return wrong("There is no back option in the company list.\n" +
-                "Your output should contain '0. Back'");
+                    "Your output should contain '0. Back'");
         }
 
         output = program.execute("1");
@@ -254,7 +254,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("Enter the car name:")) {
             return wrong("After choosing 'Create a car' item you should ask to enter a car name. " +
-                "Your output should contain 'Enter the car name:'");
+                    "Your output should contain 'Enter the car name:'");
         }
 
         program.execute("Hyundai Venue");
@@ -268,14 +268,14 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Hyundai Venue")) {
             return wrong("In the car list expected 'Hyundai Venue' car.\n" +
-                "Your output should contain '1. Hyundai Venue'\n" +
-                "Cars should be sorted by 'ID' column");
+                    "Your output should contain '1. Hyundai Venue'\n" +
+                    "Cars should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Maruti Suzuki Dzire")) {
             return wrong("In the car list expected 'Maruti Suzuki Dzire' car.\n" +
-                "Your output should contain '2. Maruti Suzuki Dzire'\n" +
-                "Cars should be sorted by 'ID' column");
+                    "Your output should contain '2. Maruti Suzuki Dzire'\n" +
+                    "Cars should be sorted by 'ID' column");
         }
 
         program.execute("0");
@@ -296,7 +296,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Lamborghini Urraco")) {
             return wrong("In the car list expected 'Lamborghini Urraco' car.\n" +
-                "Your output should contain '1. Lamborghini Urraco'");
+                    "Your output should contain '1. Lamborghini Urraco'");
         }
 
         if (output.contains("Hyundai Venue")) {
@@ -342,7 +342,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("Enter the customer name:")) {
             return wrong("After choosing '3. Create a customer' option you should ask to enter a customer name.\n" +
-                "Your output should contain 'Enter the customer name:'");
+                    "Your output should contain 'Enter the customer name:'");
         }
 
         program.execute("First customer");
@@ -354,7 +354,7 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("2. Log in as a customer")) {
             return wrong("After creating a customer you should print main menu again.\n" +
-                "Your output should contain '2. Log in as a customer'");
+                    "Your output should contain '2. Log in as a customer'");
         }
 
         output = program.execute("2");
@@ -362,14 +362,14 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. First customer")) {
             return wrong("In the customer list expected 'First customer' customer.\n" +
-                "Your output should contain '1. First customer'\n" +
-                "Customers should be sorted by 'ID' column");
+                    "Your output should contain '1. First customer'\n" +
+                    "Customers should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Second customer")) {
             return wrong("In the customer list expected 'Second customer' customer.\n" +
-                "Your output should contain '2. Second customer'\n" +
-                "Customers should be sorted by 'ID' column");
+                    "Your output should contain '2. Second customer'\n" +
+                    "Customers should be sorted by 'ID' column");
         }
 
         output = program.execute("1");
@@ -429,33 +429,33 @@ public class CarSharingTest extends StageTest<Void> {
 
         if (!output.contains("1. Car To Go")) {
             return wrong("In the company list expected 'Car To Go' company.\n" +
-                "Your output should contain '1. Car To Go'.\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '1. Car To Go'.\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Drive Now")) {
             return wrong("In the company list expected 'Drive Now' company.\n" +
-                "Your output should contain '2. Drive Now'\n" +
-                "Companies should be sorted by 'ID' column");
+                    "Your output should contain '2. Drive Now'\n" +
+                    "Companies should be sorted by 'ID' column");
         }
 
         if (!output.contains("0. Back")) {
             return wrong("There is no back option in the company list.\n" +
-                "Your output should contain '0. Back'");
+                    "Your output should contain '0. Back'");
         }
 
         output = program.execute("1");
 
         if (!output.contains("1. Hyundai Venue")) {
             return wrong("In the car list expected 'Hyundai Venue' car.\n" +
-                "Your output should contain '1. Hyundai Venue'\n" +
-                "Cars should be sorted by 'ID' column");
+                    "Your output should contain '1. Hyundai Venue'\n" +
+                    "Cars should be sorted by 'ID' column");
         }
 
         if (!output.contains("2. Maruti Suzuki Dzire")) {
             return wrong("In the car list expected 'Maruti Suzuki Dzire' car.\n" +
-                "Your output should contain '2. Maruti Suzuki Dzire'\n" +
-                "Cars should be sorted by 'ID' column");
+                    "Your output should contain '2. Maruti Suzuki Dzire'\n" +
+                    "Cars should be sorted by 'ID' column");
         }
 
         output = program.execute("1");

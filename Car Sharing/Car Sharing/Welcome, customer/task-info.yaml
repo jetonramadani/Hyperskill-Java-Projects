@@ -862,200 +862,7 @@ files:
         }
     }
   learner_created: false
-- name: src/carsharing/CarService.java
-  visible: true
-  text: |-
-    package carsharing;
-
-    import java.sql.Connection;
-    import java.sql.ResultSet;
-    import java.sql.SQLException;
-    import java.sql.Statement;
-
-    public class CarService {
-        private final Connection conn;
-
-        public CarService(Connection connection) throws SQLException {
-            this.conn = connection;
-            this.recreateTable();
-        }
-
-        public static void dropCar(Connection connection) throws SQLException {
-            Statement statement = connection.createStatement();
-            statement.execute("DROP TABLE IF EXISTS CAR");
-            statement.close();
-        }
-
-        private void recreateTable() throws SQLException {
-            Statement stmt = this.conn.createStatement();
-            stmt.execute("DROP TABLE IF EXISTS CAR");
-            String sql = "CREATE TABLE CAR " +
-                    "(ID INTEGER PRIMARY KEY AUTO_INCREMENT, " +
-                    "NAME VARCHAR(255) UNIQUE NOT NULL, " +
-                    "COMPANY_ID INT NOT NULL, " +
-                    "CONSTRAINT fk_company FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID))";
-            stmt.executeUpdate(sql);
-            stmt.close();
-        }
-
-        public String getCarsAsString(int compId) throws SQLException {
-            Statement stmt = this.conn.createStatement();
-            stmt.execute(String.format("SELECT * FROM CAR WHERE COMPANY_ID=%d", compId));
-            ResultSet resultSet = stmt.getResultSet();
-            StringBuilder res = new StringBuilder("Car list:\n");
-            boolean found = false;
-            int i = 1;
-            while (resultSet.next()) {
-                Car car = Car.getCar(resultSet);
-                res.append(i++).append(". ").append(car.getName()).append("\n");
-                found = true;
-            }
-            stmt.close();
-            if (!found) {
-                return "The car list is empty!";
-            }
-            return res.toString();
-        }
-
-        public void createCar(String name, int compId) throws SQLException {
-            Statement stmt = this.conn.createStatement();
-            stmt.execute(String.format("INSERT INTO CAR(NAME, COMPANY_ID) VALUES('%s', %d)", name, compId));
-        }
-
-    }
-  learner_created: true
-- name: src/carsharing/DBConnection.java
-  visible: true
-  text: |
-    package carsharing;
-
-    import java.sql.Connection;
-    import java.sql.DriverManager;
-    import java.sql.SQLException;
-
-    public class DBConnection {
-        private static Connection conn;
-
-        public DBConnection(String dbName) throws SQLException, ClassNotFoundException {
-            createConnection(dbName);
-        }
-
-        private static void createConnection(String dbName) throws ClassNotFoundException, SQLException {
-            if (conn == null) {
-                Class.forName("org.h2.Driver");
-                conn = DriverManager.getConnection("jdbc:h2:file:../task/src/carsharing/db/" + dbName);
-                conn.setAutoCommit(true);
-            }
-        }
-
-        public void closeConnection() throws SQLException {
-            if (conn != null) {
-                conn.close();
-            }
-        }
-
-        public Connection getConnection() {
-            return conn;
-        }
-    }
-  learner_created: true
-- name: src/carsharing/Car.java
-  visible: true
-  text: |
-    package carsharing;
-
-    import java.sql.ResultSet;
-    import java.sql.SQLException;
-
-    public class Car {
-        private int id;
-        private String name;
-        private int companyId;
-
-        public Car(int id, String name, int companyId) {
-            this.id = id;
-            this.name = name;
-            this.companyId = companyId;
-        }
-
-        public int getId() {
-            return id;
-        }
-
-        public void setId(int id) {
-            this.id = id;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public int getCompanyId() {
-            return companyId;
-        }
-
-        public void setCompanyId(int companyId) {
-            this.companyId = companyId;
-        }
-
-        public static Car getCar(ResultSet resultSet) throws SQLException {
-            return new Car(resultSet.getInt("ID"), resultSet.getString("NAME"), resultSet.getInt("COMPANY_ID"));
-        }
-
-        @Override
-        public String toString() {
-            return String.format("%d. %s", this.id, this.name);
-        }
-    }
-  learner_created: true
-- name: src/carsharing/Company.java
-  visible: true
-  text: |
-    package carsharing;
-
-    import java.sql.ResultSet;
-    import java.sql.SQLException;
-
-    public class Company {
-        private int id;
-        private String name;
-
-        public Company(int id, String name) {
-            this.id = id;
-            this.name = name;
-        }
-
-        public int getId() {
-            return id;
-        }
-
-        public void setId(int id) {
-            this.id = id;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        @Override
-        public String toString() {
-            return String.format("%d. %s", this.id, this.name);
-        }
-
-        public static Company getCompany(ResultSet set) throws SQLException {
-            return new Company(set.getInt("ID"), set.getString("name"));
-        }
-    }
-  learner_created: true
-- name: src/carsharing/CompanyService.java
+- name: src/carsharing/services/CompanyService.java
   visible: true
   text: |
     package carsharing;
@@ -1122,6 +929,215 @@ files:
 
     }
   learner_created: true
+- name: src/carsharing/services/CarService.java
+  visible: true
+  text: |-
+    package carsharing;
+
+    import java.sql.Connection;
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+    import java.sql.Statement;
+
+    public class CarService {
+        private final Connection conn;
+
+        public CarService(Connection connection) throws SQLException {
+            this.conn = connection;
+            this.recreateTable();
+        }
+
+        public static void dropCar(Connection connection) throws SQLException {
+            Statement statement = connection.createStatement();
+            statement.execute("DROP TABLE IF EXISTS CAR");
+            statement.close();
+        }
+
+        private void recreateTable() throws SQLException {
+            Statement stmt = this.conn.createStatement();
+            stmt.execute("DROP TABLE IF EXISTS CAR");
+            String sql = "CREATE TABLE CAR " +
+                    "(ID INTEGER PRIMARY KEY AUTO_INCREMENT, " +
+                    "NAME VARCHAR(255) UNIQUE NOT NULL, " +
+                    "COMPANY_ID INT NOT NULL, " +
+                    "CONSTRAINT fk_company FOREIGN KEY (COMPANY_ID) REFERENCES COMPANY(ID))";
+            stmt.executeUpdate(sql);
+            stmt.close();
+        }
+
+        public String getCarsAsString(int compId) throws SQLException {
+            Statement stmt = this.conn.createStatement();
+            stmt.execute(String.format("SELECT * FROM CAR WHERE COMPANY_ID=%d", compId));
+            ResultSet resultSet = stmt.getResultSet();
+            StringBuilder res = new StringBuilder("Car list:\n");
+            boolean found = false;
+            int i = 1;
+            while (resultSet.next()) {
+                Car car = Car.getCar(resultSet);
+                res.append(i++).append(". ").append(car.getName()).append("\n");
+                found = true;
+            }
+            stmt.close();
+            if (!found) {
+                return "The car list is empty!";
+            }
+            return res.toString();
+        }
+
+        public void createCar(String name, int compId) throws SQLException {
+            Statement stmt = this.conn.createStatement();
+            stmt.execute(String.format("INSERT INTO CAR(NAME, COMPANY_ID) VALUES('%s', %d)", name, compId));
+        }
+
+    }
+  learner_created: true
+- name: src/carsharing/models/Car.java
+  visible: true
+  text: |
+    package carsharing;
+
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+
+    public class Car {
+        private int id;
+        private String name;
+        private int companyId;
+
+        public Car(int id, String name, int companyId) {
+            this.id = id;
+            this.name = name;
+            this.companyId = companyId;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getCompanyId() {
+            return companyId;
+        }
+
+        public void setCompanyId(int companyId) {
+            this.companyId = companyId;
+        }
+
+        public static Car getCar(ResultSet resultSet) throws SQLException {
+            return new Car(resultSet.getInt("ID"), resultSet.getString("NAME"), resultSet.getInt("COMPANY_ID"));
+        }
+
+        @Override
+        public String toString() {
+            return String.format("%d. %s", this.id, this.name);
+        }
+    }
+  learner_created: true
+- name: src/carsharing/models/Company.java
+  visible: true
+  text: |
+    package carsharing;
+
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+
+    public class Company {
+        private int id;
+        private String name;
+
+        public Company(int id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        @Override
+        public String toString() {
+            return String.format("%d. %s", this.id, this.name);
+        }
+
+        public static Company getCompany(ResultSet set) throws SQLException {
+            return new Company(set.getInt("ID"), set.getString("name"));
+        }
+    }
+  learner_created: true
+- name: src/carsharing/config/DBConnection.java
+  visible: true
+  text: |
+    package carsharing;
+
+    import java.sql.Connection;
+    import java.sql.DriverManager;
+    import java.sql.SQLException;
+
+    public class DBConnection {
+        private static Connection conn;
+
+        public DBConnection(String dbName) throws SQLException, ClassNotFoundException {
+            createConnection(dbName);
+        }
+
+        private static void createConnection(String dbName) throws ClassNotFoundException, SQLException {
+            if (conn == null) {
+                Class.forName("org.h2.Driver");
+                conn = DriverManager.getConnection("jdbc:h2:file:../task/src/carsharing/db/" + dbName);
+                conn.setAutoCommit(true);
+            }
+        }
+
+        public void closeConnection() throws SQLException {
+            if (conn != null) {
+                conn.close();
+            }
+        }
+
+        public Connection getConnection() {
+            return conn;
+        }
+    }
+  learner_created: true
+- name: src/carsharing/model/Car.java
+  visible: true
+  learner_created: true
+- name: src/carsharing/model/Company.java
+  visible: true
+  learner_created: true
+- name: src/carsharing/models/Customer.java
+  visible: true
+  learner_created: true
+- name: src/carsharing/services/CustomerService.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11504#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Fri, 18 Mar 2022 13:35:00 UTC
 record: -1

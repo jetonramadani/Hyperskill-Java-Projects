@@ -1,4 +1,7 @@
-package carsharing;
+package carsharing.services;
+
+
+import carsharing.models.Company;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -15,12 +18,11 @@ public class CompanyService {
 
     private void recreateTable() throws SQLException {
         Statement stmt = this.conn.createStatement();
-        CarService.dropCar(conn);
-        stmt.execute("DROP TABLE IF EXISTS COMPANY");
-        String sql = "CREATE TABLE   COMPANY " +
+        String sql = "CREATE TABLE IF NOT EXISTS COMPANY " +
                 "(ID INTEGER PRIMARY KEY AUTO_INCREMENT, " +
                 "NAME VARCHAR(255) UNIQUE NOT NULL)";
         stmt.executeUpdate(sql);
+        stmt.execute("ALTER TABLE COMPANY ALTER COLUMN ID RESTART WITH 1");
         stmt.close();
     }
 
