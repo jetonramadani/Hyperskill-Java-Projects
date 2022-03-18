@@ -1,14 +1,13 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 class Monitor {
 
     public static Map<String, Long> getUrlToNumberOfVisited(List<LogEntry> logs) {
         return logs.stream()
                 .collect(
-                        Collectors.groupingBy(
+                        groupingBy(
                                 LogEntry::getUrl,
-                                Collectors.counting()
+                                counting()
                         )
                 );
     }
@@ -52,8 +51,9 @@ class Monitor {
 
         @Override
         public int hashCode() {
+            final int t1 = 31;
             int result = login.hashCode();
-            result = 31 * result + url.hashCode();
+            result = t1 * result + url.hashCode();
             return result;
         }
 
