@@ -1,2 +1,3 @@
 content:
-- Static members
+  - Static members
+  - Hiding and overriding
