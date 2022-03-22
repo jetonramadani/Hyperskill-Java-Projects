@@ -1,3 +1,4 @@
 content:
-  - Static members
-  - Hiding and overriding
+- Static members
+- Hiding and overriding
+- toString()

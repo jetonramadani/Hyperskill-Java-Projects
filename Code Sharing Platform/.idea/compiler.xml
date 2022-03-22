@@ -29,6 +29,16 @@
       <module name="Code_Sharing_Platform.Topics-Static_members-Theory.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-Static_members-Time_constants.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-Static_members-Too_many_cats.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Account.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Books_as_strings.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Class_hierarchy.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Convert_persons_and_patients_to_string.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Convert_vehicles_and_cars_to_string.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-String_representation.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Time_as_a_string.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-toString_method.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-toString__-Users_as_strings.main" target="11" />
       <module name="Code_Sharing_Platform.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

@@ -37,6 +37,16 @@
             <option value="$PROJECT_DIR$/Topics/Static members/Theory" />
             <option value="$PROJECT_DIR$/Topics/Static members/Time constants" />
             <option value="$PROJECT_DIR$/Topics/Static members/Too many cats" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Account" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Books as strings" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Class hierarchy" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Convert persons and patients to string" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Convert vehicles and cars to string" />
+            <option value="$PROJECT_DIR$/Topics/toString()/String representation" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Theory" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Time as a string" />
+            <option value="$PROJECT_DIR$/Topics/toString()/Users as strings" />
+            <option value="$PROJECT_DIR$/Topics/toString()/toString method" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
