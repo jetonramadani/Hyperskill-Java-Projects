@@ -3,6 +3,62 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
       <module name="Code_Sharing_Platform.Code_Sharing_Platform-task.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-@RestController_annotation.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-@RestController_inside.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Add_annotations.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Correct_response_types.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Getting_all_tasks.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Guess_the_request.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Receive_and_return_ID.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Retrieving_specific_task.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Return_big_JSON.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Three_endpoints.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Two_endpoints.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Valid_Requests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-classes-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-generated-sources-headers-java.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-reports-tests.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-test-results.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome-build-tmp.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics-Getting_data_from_REST-Welcome.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-Hiding_and_overriding-Correctly_overridden_methods.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-Hiding_and_overriding-Employee_and_Programmer.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-Hiding_and_overriding-Incorrectly_overridden_methods.main" target="11" />
