@@ -12,6 +12,23 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Code Sharing Platform/task" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/classes/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/generated/sources/annotationProcessor/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/generated/sources/headers/java" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/reports/tests" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/test-results" />
+            <option value="$PROJECT_DIR$/Code Sharing Platform/task/build/tmp" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/LocalTime constants" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Methods of LocalTime" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Millisecond precision" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Representing the same time" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Return time without seconds" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Same time" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Seconds between two time points" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Seconds since start of a day" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Some hours and minutes ago" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Theory" />
+            <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Working with time" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController annotation" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController inside" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/Add annotations" />
