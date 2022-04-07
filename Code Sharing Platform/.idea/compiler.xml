@@ -107,6 +107,23 @@
       <module name="Code_Sharing_Platform.Topics-toString__-Time_as_a_string.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-toString__-toString_method.main" target="11" />
       <module name="Code_Sharing_Platform.Topics-toString__-Users_as_strings.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-10_days_before.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-2_weeks_after.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-30_years_before_and_after.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Convert_numbers_to_days.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Find_all_mondays.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Getting_information_on_a_day.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-LocalDate_class.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Methods_of_LocalDate.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Print_dates_of_a_year_with_an_offset.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Representing_a_date.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Similar_date.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-The_first_and_the_last_day_of_a_month.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-The_first_day_of_a_month_or_not.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-The_last_day_of_a_month.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-The_n-th_day_from_the_end_of_a_month.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Working_with_dates.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-LocalTime_constants.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Methods_of_LocalTime.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Millisecond_precision.main" target="11" />
