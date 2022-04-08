@@ -124,6 +124,18 @@
       <module name="Code_Sharing_Platform.Topics__1_-LocalDate-The_n-th_day_from_the_end_of_a_month.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Theory.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalDate-Working_with_dates.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Add_11_hours_and_print_the_date.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Add_days_and_subtract_hours.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Adding_N_minutes.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Create_LocalDateTime.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-LocalDateTime_class.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Merging_date-time_instances.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Methods_of_LocalDateTime.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Same_date_and_time.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Subtracting_hours_and_adding_minutes.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-The_passed_hours_since_the_beginning_of_year.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-LocalDateTime-Whole_hours_between_two_date-time_pairs.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-LocalTime_constants.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Methods_of_LocalTime.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Millisecond_precision.main" target="11" />
