@@ -147,6 +147,11 @@
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Some_hours_and_minutes_ago.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Theory.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__1_-LocalTime-Working_with_time.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-Threads_as_objects-Counting_threads.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-Threads_as_objects-Getting_current_thread_info.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-Threads_as_objects-Is_thread_daemon.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-Threads_as_objects-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__1_-Threads_as_objects-Thread_name.main" target="11" />
       <module name="Code_Sharing_Platform.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

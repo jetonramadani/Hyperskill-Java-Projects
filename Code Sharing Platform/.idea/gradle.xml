@@ -58,6 +58,11 @@
             <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Some hours and minutes ago" />
             <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Theory" />
             <option value="$PROJECT_DIR$/Topics (1)/LocalTime/Working with time" />
+            <option value="$PROJECT_DIR$/Topics (1)/Threads as objects/Counting threads" />
+            <option value="$PROJECT_DIR$/Topics (1)/Threads as objects/Getting current thread info" />
+            <option value="$PROJECT_DIR$/Topics (1)/Threads as objects/Is thread daemon" />
+            <option value="$PROJECT_DIR$/Topics (1)/Threads as objects/Theory" />
+            <option value="$PROJECT_DIR$/Topics (1)/Threads as objects/Thread name" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController annotation" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController inside" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/Add annotations" />
