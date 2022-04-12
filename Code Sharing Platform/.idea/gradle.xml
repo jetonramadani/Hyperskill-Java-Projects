@@ -88,6 +88,16 @@
             <option value="$PROJECT_DIR$/Topics (2)/Custom threads/Theory" />
             <option value="$PROJECT_DIR$/Topics (2)/Custom threads/When will a thread start performing a task" />
             <option value="$PROJECT_DIR$/Topics (2)/Custom threads/Writing a thread for printing numbers" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Calculate the number of distinct characters" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Join" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Ordering the execution of threads" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Sleep" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Summing with threads" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/The order of lines" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Theory" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/VeganPizza" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Waiting for a thread" />
+            <option value="$PROJECT_DIR$/Topics (2)/Thread management/Workers in programs" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController annotation" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/@RestController inside" />
             <option value="$PROJECT_DIR$/Topics/Getting data from REST/Add annotations" />

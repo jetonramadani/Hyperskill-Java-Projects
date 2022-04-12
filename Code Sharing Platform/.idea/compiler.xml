@@ -177,6 +177,16 @@
       <module name="Code_Sharing_Platform.Topics__2_-Custom_threads-Theory.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__2_-Custom_threads-When_will_a_thread_start_performing_a_task.main" target="11" />
       <module name="Code_Sharing_Platform.Topics__2_-Custom_threads-Writing_a_thread_for_printing_numbers.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Calculate_the_number_of_distinct_characters.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Join.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Ordering_the_execution_of_threads.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Sleep.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Summing_with_threads.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-The_order_of_lines.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Theory.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-VeganPizza.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Waiting_for_a_thread.main" target="11" />
+      <module name="Code_Sharing_Platform.Topics__2_-Thread_management-Workers_in_programs.main" target="11" />
       <module name="Code_Sharing_Platform.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
