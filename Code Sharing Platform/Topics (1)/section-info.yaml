@@ -1,7 +1,0 @@
-custom_name: Topics
-content:
-  - LocalTime
-- LocalDate
-- LocalDateTime
-- Threads as objects
-  - Custom threads
