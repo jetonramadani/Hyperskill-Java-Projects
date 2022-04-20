@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -10,6 +11,24 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Code Sharing Platform/task" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Counting number of instances" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Methods" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Multithreaded counter" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong" />
+            <option value="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
