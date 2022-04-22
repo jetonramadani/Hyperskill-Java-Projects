@@ -2,20 +2,20 @@ type: choice
 is_multiple_choice: true
 options:
 - text: <b>Output:</b><br>a thread entered method1<br>a thread entered method2<br>a
-    thread left method2<br>a thread left method1<br>a thread entered method3<br>a
-    thread left method3
-- text: <b>Output:</b><br>a thread entered method1<br>a thread left method1<br>a thread
-    entered method2<br>a thread left method2<br>a thread entered method3<br>a thread
-    left method3
-- text: <b>Output:</b><br>a thread entered method3<br>a thread left method3<br>a thread
-    entered method1<br>a thread entered method2<br>a thread left method2<br>a thread
-    left method1
-- text: <b>Output:</b><br>a thread entered method1<br>a thread entered method2<br>a
     thread entered method3<br>a thread left method3<br>a thread left method2<br>a
     thread left method1
 - text: <b>Output:</b><br>a thread entered method3<br>a thread left method3<br>a thread
     entered method1<br>a thread entered method2<br>a thread left method1<br>a thread
     left method2
+- text: <b>Output:</b><br>a thread entered method1<br>a thread left method1<br>a thread
+    entered method2<br>a thread left method2<br>a thread entered method3<br>a thread
+    left method3
+- text: <b>Output:</b><br>a thread entered method1<br>a thread entered method2<br>a
+    thread left method2<br>a thread left method1<br>a thread entered method3<br>a
+    thread left method3
+- text: <b>Output:</b><br>a thread entered method3<br>a thread left method3<br>a thread
+    entered method1<br>a thread entered method2<br>a thread left method2<br>a thread
+    left method1
 files:
 - name: src/Task.java
   visible: true

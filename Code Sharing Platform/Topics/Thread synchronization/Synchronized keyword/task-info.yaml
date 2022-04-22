@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: block of code
 - text: method
-- text: class
 - text: object of a class
+- text: block of code
+- text: class
 files:
 - name: src/Task.java
   visible: true

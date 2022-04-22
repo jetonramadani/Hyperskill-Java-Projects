@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Synchronized methods
-- text: Abstract methods
 - text: Serialized methods
-- text: Asynchronous methods
+- text: Abstract methods
+- text: Synchronized methods
 - text: Asynchronized methods
+- text: Asynchronous methods
 files:
 - name: src/Task.java
   visible: true

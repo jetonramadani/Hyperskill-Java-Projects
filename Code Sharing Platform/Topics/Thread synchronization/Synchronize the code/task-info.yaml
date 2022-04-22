@@ -1,13 +1,13 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: ' Nothing needs to be done, everything works correctly'
 - text: ' To put lines 1-2 in a synchronized block, the monitor being the class (<b>SimpleClass.class</b>)'
-- text: ' To put lines 1-2 in a synchronized block, the monitor being an additional
-    field: <b>private final Object lock = new Object();</b>'
+- text: ' Nothing needs to be done, everything works correctly'
 - text: ' To declare the class with the <b>synchronized</b> keyword'
 - text: ' To put the line 2 in a synchronized block, the monitor being the class (<b>SimpleClass.class</b>)'
 - text: ' To declare the method with the <b>synchronized</b> keyword'
+- text: ' To put lines 1-2 in a synchronized block, the monitor being an additional
+    field: <b>private final Object lock = new Object();</b>'
 files:
 - name: src/Task.java
   visible: true

@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: A thread can always invoke <b>method2</b> and execute a code before the synchronized
-    block
 - text: If a thread invokes <b>method2</b> from <b>method1</b> it will never be locked
     by the synchronized block inside <b>method2</b>
+- text: A thread can always invoke <b>method2</b> and execute a code before the synchronized
+    block
 - text: <b>method1</b> is synchronized on <b>SomeClass</b>
 - text: If a thread executes statements in <b>method1</b>, other threads cannot executed
     statements in <b>method2</b> inside the synchronized block

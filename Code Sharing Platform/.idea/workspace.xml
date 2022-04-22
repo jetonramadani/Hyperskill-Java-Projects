@@ -5,152 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8acab111-e0dd-40d6-8f75-c823ea08f36b" name="Changes" comment="Thread synchronization">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Countdown counter/Code_Sharing_Platform.Topics-Thread_synchronization-Countdown_counter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Countdown counter/Code_Sharing_Platform.Topics-Thread_synchronization-Countdown_counter.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Countdown counter/Code_Sharing_Platform.Topics-Thread_synchronization-Countdown_counter.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Counting number of instances/Code_Sharing_Platform.Topics-Thread_synchronization-Counting_number_of_instances.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Counting number of instances/Code_Sharing_Platform.Topics-Thread_synchronization-Counting_number_of_instances.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Counting number of instances/Code_Sharing_Platform.Topics-Thread_synchronization-Counting_number_of_instances.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Initialize fields only once/Code_Sharing_Platform.Topics-Thread_synchronization-Initialize_fields_only_once.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Initialize fields only once/Code_Sharing_Platform.Topics-Thread_synchronization-Initialize_fields_only_once.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Initialize fields only once/Code_Sharing_Platform.Topics-Thread_synchronization-Initialize_fields_only_once.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Method inside the synchronized block/Code_Sharing_Platform.Topics-Thread_synchronization-Method_inside_the_synchronized_block.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Method inside the synchronized block/Code_Sharing_Platform.Topics-Thread_synchronization-Method_inside_the_synchronized_block.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Method inside the synchronized block/Code_Sharing_Platform.Topics-Thread_synchronization-Method_inside_the_synchronized_block.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Methods/Code_Sharing_Platform.Topics-Thread_synchronization-Methods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Methods/Code_Sharing_Platform.Topics-Thread_synchronization-Methods.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Methods/Code_Sharing_Platform.Topics-Thread_synchronization-Methods.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Multithreaded counter/Code_Sharing_Platform.Topics-Thread_synchronization-Multithreaded_counter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Multithreaded counter/Code_Sharing_Platform.Topics-Thread_synchronization-Multithreaded_counter.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Multithreaded counter/Code_Sharing_Platform.Topics-Thread_synchronization-Multithreaded_counter.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Possible outputs/Code_Sharing_Platform.Topics-Thread_synchronization-Possible_outputs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Possible outputs/Code_Sharing_Platform.Topics-Thread_synchronization-Possible_outputs.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Possible outputs/Code_Sharing_Platform.Topics-Thread_synchronization-Possible_outputs.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronize the code/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronize_the_code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronize the code/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronize_the_code.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronize the code/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronize_the_code.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized blocks/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_blocks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized blocks/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_blocks.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized blocks/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_blocks.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized keyword/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_keyword.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized keyword/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_keyword.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Synchronized keyword/Code_Sharing_Platform.Topics-Thread_synchronization-Synchronized_keyword.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Theory/Code_Sharing_Platform.Topics-Thread_synchronization-Theory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Theory/Code_Sharing_Platform.Topics-Thread_synchronization-Theory.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Theory/Code_Sharing_Platform.Topics-Thread_synchronization-Theory.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread synchronization in Java/Code_Sharing_Platform.Topics-Thread_synchronization-Thread_synchronization_in_Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread synchronization in Java/Code_Sharing_Platform.Topics-Thread_synchronization-Thread_synchronization_in_Java.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread synchronization in Java/Code_Sharing_Platform.Topics-Thread_synchronization-Thread_synchronization_in_Java.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread-safe account/Code_Sharing_Platform.Topics-Thread_synchronization-Thread-safe_account.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread-safe account/Code_Sharing_Platform.Topics-Thread_synchronization-Thread-safe_account.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Thread-safe account/Code_Sharing_Platform.Topics-Thread_synchronization-Thread-safe_account.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Threads executing methods/Code_Sharing_Platform.Topics-Thread_synchronization-Threads_executing_methods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Threads executing methods/Code_Sharing_Platform.Topics-Thread_synchronization-Threads_executing_methods.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Threads executing methods/Code_Sharing_Platform.Topics-Thread_synchronization-Threads_executing_methods.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Two methods, two statements/Code_Sharing_Platform.Topics-Thread_synchronization-Two_methods,_two_statements.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Two methods, two statements/Code_Sharing_Platform.Topics-Thread_synchronization-Two_methods,_two_statements.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Two methods, two statements/Code_Sharing_Platform.Topics-Thread_synchronization-Two_methods,_two_statements.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is incorrect about monitors/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_incorrect_about_monitors.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is incorrect about monitors/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_incorrect_about_monitors.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is incorrect about monitors/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_incorrect_about_monitors.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is wrong/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_wrong.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is wrong/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_wrong.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/What is wrong/Code_Sharing_Platform.Topics-Thread_synchronization-What_is_wrong.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Where it is possible to write synchronized/Code_Sharing_Platform.Topics-Thread_synchronization-Where_it_is_possible_to_write_synchronized.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Where it is possible to write synchronized/Code_Sharing_Platform.Topics-Thread_synchronization-Where_it_is_possible_to_write_synchronized.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Thread synchronization/Where it is possible to write synchronized/Code_Sharing_Platform.Topics-Thread_synchronization-Where_it_is_possible_to_write_synchronized.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Countdown counter/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Counting number of instances/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Counting number of instances/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Counting number of instances/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Counting number of instances/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Multithreaded counter/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Multithreaded counter/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Multithreaded counter/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Multithreaded counter/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Theory/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Theory/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Theory/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Theory/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread-safe account/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Thread synchronization/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Comparing objects/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Comparing objects/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Comparing objects/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Comparing objects/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement Comparable/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement Comparable/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement Comparable/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement Comparable/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Natural ordering/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Natural ordering/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Natural ordering/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Natural ordering/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rules/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rules/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rules/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Rules/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Theory/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Theory/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Theory/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Theory/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Value class/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Value class/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Value class/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/Value class/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/compareTo/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/compareTo/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/compareTo/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/compareTo/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Comparable/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Sharing Platform/POST updates/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Sharing Platform/POST updates/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Sharing Platform/Show the code/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Sharing Platform/Show the code/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Sharing Platform/Snippets feed/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Sharing Platform/Snippets feed/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Sharing Platform/Super secret snippets/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Sharing Platform/Super secret snippets/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Sharing Platform/Work with the database/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Sharing Platform/Work with the database/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Initialize fields only once/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Method inside the synchronized block/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Methods/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Possible outputs/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronize the code/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized blocks/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Synchronized keyword/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Thread synchronization in Java/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Threads executing methods/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Two methods, two statements/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is incorrect about monitors/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/What is wrong/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Thread synchronization/Where it is possible to write synchronized/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650372265964</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Thread synchronization">
+      <created>1650446772443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650446772443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

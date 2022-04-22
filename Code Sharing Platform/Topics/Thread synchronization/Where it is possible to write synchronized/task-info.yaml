@@ -2,11 +2,11 @@ type: choice
 is_multiple_choice: true
 options:
 - text: block
-- text: constructor
-- text: method
-- text: local variable
 - text: class
+- text: constructor
+- text: local variable
 - text: field
+- text: method
 files:
 - name: src/Task.java
   visible: true

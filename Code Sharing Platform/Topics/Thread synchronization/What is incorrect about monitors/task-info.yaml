@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: A monitor for a class must be written in the class declaration
-- text: Monitor is a special mechanism to control concurrent access to an object
-- text: An object has an associated implicit monitor
 - text: A thread is not allowed to execute the code until it obtains the lock
+- text: Monitor is a special mechanism to control concurrent access to an object
+- text: A monitor for a class must be written in the class declaration
+- text: An object has an associated implicit monitor
 files:
 - name: src/Task.java
   visible: true
