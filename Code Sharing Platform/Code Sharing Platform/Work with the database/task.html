@@ -1,4 +1,4 @@
-<h5>Description</h5>
+<h5 id="description">Description</h5>
 
 <p>It is difficult to imagine a web application without the database. Imagine that every time you quit the program, all the data just disappears into thin air: no one wants that to happen! In this stage, we will make sure no data gets lost and store all the uploaded code snippets in the database for further reference.</p>
 
@@ -21,14 +21,14 @@ spring.h2.console.enabled=true
 spring.h2.console.settings.trace=false
 spring.h2.console.settings.web-allow-others=false</code></pre>
 
-<p>Notice how every code snippet is just black. It can be quite hard to read without syntax highlighting. Luckily, there is a library called <a target="_blank" href="https://highlightjs.org/" rel="noopener noreferrer nofollow">highlight.js</a> that can help you fix this. See the <a target="_blank" href="https://highlightjs.org/usage/" rel="noopener noreferrer nofollow">usage section</a> to understand how to use it. Note that in order for it to work, your code snippets should be inside the tags <code class="language-json">&lt;pre&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;</code>, so make sure your code snippets are generated just like that. Put the following lines inside the <code class="language-json">&lt;head&gt;</code> tags of your HTML, and viola: every code snippet is now highlighted!</p>
+<p>Notice how every code snippet is just black. It can be quite hard to read without syntax highlighting. Luckily, there is a library called <a target="_blank" target="_blank" target="_blank" target="_blank" target="_blank" href="https://highlightjs.org/" rel="noopener noreferrer nofollow">highlight.js</a> that can help you fix this. See the <a target="_blank" target="_blank" target="_blank" target="_blank" target="_blank" href="https://highlightjs.org/usage/" rel="noopener noreferrer nofollow">usage section</a> to understand how to use it. Note that in order for it to work, your code snippets should be inside the tags <code class="language-json">&lt;pre&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;</code>, so make sure your code snippets are generated just like that. Put the following lines inside the <code class="language-json">&lt;head&gt;</code> tags of your HTML, and viola: every code snippet is now highlighted!</p>
 
 <pre><code class="language-json">&lt;link rel="stylesheet"
-       target="_blank" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css"&gt;
+       target="_blank" target="_blank" target="_blank" target="_blank" target="_blank" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css"&gt;
 &lt;script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;</code></pre>
 
-<h5>Objectives</h5>
+<h5 id="objectives">Objectives</h5>
 
 <p>In this stage, your program should support all the same endpoints as in the previous stage. There are two differences: first, all the saved code snippets should be available after reloading the server, and second, they should be highlighted.</p>
 
@@ -48,7 +48,7 @@ spring.h2.console.settings.web-allow-others=false</code></pre>
 	<li><code class="language-json">GET /code/latest</code> should return HTML that contains 10 most recently uploaded code snippets. Use the title <code class="language-json">Latest</code> for this page.</li>
 </ul>
 
-<h5>Examples</h5>
+<h5 id="examples">Examples</h5>
 
 <p>In the following examples, consider that no code snippets have been uploaded beforehand.</p>
 

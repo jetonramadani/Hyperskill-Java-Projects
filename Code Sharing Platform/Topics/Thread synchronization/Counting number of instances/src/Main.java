@@ -1,3 +1,4 @@
+
 class ClassCountingInstances {
 
     private static long numberOfInstances;

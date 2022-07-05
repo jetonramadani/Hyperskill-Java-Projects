@@ -2,12 +2,12 @@ type: choice
 is_multiple_choice: true
 options:
 - text: The value is zero if the current object is greater than the parameter object
-- text: It is a negative value if the current object is less than the parameter object
-- text: It is a negative value if the current object is greater than the parameter
-    object
 - text: It is a positive value if the current object is greater than the parameter
     object
+- text: It is a negative value if the current object is greater than the parameter
+    object
 - text: The value is zero if they are equal
+- text: It is a negative value if the current object is less than the parameter object
 files:
 - name: src/Task.java
   visible: true

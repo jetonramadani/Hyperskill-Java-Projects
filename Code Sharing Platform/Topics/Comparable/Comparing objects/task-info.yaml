@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: equals method is all we need for it
-- text: Comparator
 - text: None, we have to write our own method for it
+- text: Comparator
 - text: Comparable
+- text: equals method is all we need for it
 files:
 - name: src/Task.java
   visible: true
